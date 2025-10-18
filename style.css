@@ -1,0 +1,56 @@
+/* So simple yet so elegant :))) */
+
+body {
+  font-family: "Poppins", sans-serif;
+  scroll-behavior: smooth;
+  background-color: #000;
+  color: #fff;
+}
+
+.navbar {
+  transition: all 0.3s ease;
+}
+
+.navbar .nav-link {
+  color: #ccc !important;
+  margin-left: 10px;
+  transition: color 0.3s;
+}
+
+.navbar .nav-link:hover {
+  color: #f5c518 !important;
+}
+
+.hero {
+  height: 100vh;
+  background: radial-gradient(circle at top, #222 0%, #000 100%);
+  color: white;
+}
+
+.profile-pic {
+  width: 180px;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 3px solid #f5c518;
+  box-shadow: 0 0 20px rgba(245, 197, 24, 0.5);
+  transition: transform 0.3s;
+}
+
+.profile-pic:hover {
+  transform: scale(1.05);
+}
+
+.card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 0 20px rgba(245, 197, 24, 0.3);
+}
+
+footer {
+  background-color: #000;
+  color: #999;
+}
